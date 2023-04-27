@@ -138,9 +138,7 @@
     color: white;
     font-size: 14px;
   }
-  .btn a:hover{
-    
-  }
+  
   .button{
     margin: 2px 3px;
     border : 1px solid black;
@@ -237,19 +235,20 @@ html {
   margin-bottom: 17px;
 
 }
+
 .fotter{
-  height: 12vh;
+  background-color: rgb(65,61,61);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(65, 61, 61);
-
+  height: 85px;
+  padding-top: 2%;
 }
 .fotter p{
   font-family: sans serif, arial or verdana;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .fotter-links li{
   display: inline-block;
@@ -405,25 +404,34 @@ transform: scale(0);
     height: 370px;
     transition: 0.7s ease;
   }
+  .ap-secf{
+    flex-direction: column-reverse;
+    min-height: 80vh;
+  }
+  .leftsec img{
+    width: 250px;
+  }
 .contact-heading{
   text-align: center;
   letter-spacing: 0;
   padding-left: 0;
   margin-right: 5%;
 } 
-.rightsec{
-  height: 390px;
-}
+ .rightsec{
+   position: relative;
+   top: -150px;
+   flex-direction: column;
+ } 
 .bigtag{
-  padding-right: 0;
+ font-size: 18px;
 }
 .leftsec{
   margin-bottom: 30%;
   width: 50%;
 }
-.leftsec img{
+/* .leftsec img{
   width: 120%;
-}
+} */
 .burger{
   display: block;
 }
@@ -568,13 +576,16 @@ transform: scale(0);
     }
     .rightsec{
       position: relative;
-      top: -17%;
-      /* text-align: center; */
-      margin: auto;
+      top: -150px;
+      /* text-align: center;
+      margin: auto; */
     }
     .leftsec{
       position: relative;
       top : -10%;
+    }
+    .leftsec img {
+      width: 200px;
     }
     .fotter p{
     position: relative;
@@ -593,5 +604,6 @@ transform: scale(0);
     .para{
       margin-left: 3%;
     }
-    
   }
+
+ 
